@@ -1,0 +1,36 @@
+2018-03-09 18:54:25.149 Always, OpenZwave Version 1.4.2926 Starting Up
+2018-03-09 18:54:27.810 Info, Setting Up Provided Network Key for Secure Communications
+2018-03-09 18:54:27.813 Info, mgr,     Added driver for controller /dev/ttyUSB1
+2018-03-09 18:54:27.813 Info,   Opening controller /dev/ttyUSB1
+2018-03-09 18:54:27.813 Info, Trying to open serial port /dev/ttyUSB1 (attempt 1)
+2018-03-09 18:54:27.815 Info, Serial port /dev/ttyUSB1 opened (attempt 1)
+2018-03-09 18:54:27.816 Detail, contrlr, Queuing (Command) FUNC_ID_ZW_GET_VERSION: 0x01, 0x03, 0x00, 0x15, 0xe9
+2018-03-09 18:54:27.816 Detail, contrlr, Queuing (Command) FUNC_ID_ZW_MEMORY_GET_ID: 0x01, 0x03, 0x00, 0x20, 0xdc
+2018-03-09 18:54:27.816 Detail, contrlr, Queuing (Command) FUNC_ID_ZW_GET_CONTROLLER_CAPABILITIES: 0x01, 0x03, 0x00, 0x05, 0xf9
+2018-03-09 18:54:27.816 Detail, contrlr, Queuing (Command) FUNC_ID_SERIAL_API_GET_CAPABILITIES: 0x01, 0x03, 0x00, 0x07, 0xfb
+2018-03-09 18:54:27.816 Detail, contrlr, Queuing (Command) FUNC_ID_ZW_GET_SUC_NODE_ID: 0x01, 0x03, 0x00, 0x56, 0xaa
+2018-03-09 18:54:27.816 Detail, 
+2018-03-09 18:54:27.816 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x15) - FUNC_ID_ZW_GET_VERSION: 0x01, 0x03, 0x00, 0x15, 0xe9
+2018-03-09 18:54:28.817 Error, contrlr, ERROR: Dropping command, expected response not received after 1 attempt(s)
+2018-03-09 18:54:28.817 Detail, contrlr, Removing current message
+2018-03-09 18:54:28.817 Detail, contrlr, Notification: Notification - TimeOut
+2018-03-09 18:54:28.821 Detail, 
+2018-03-09 18:54:28.821 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x20) - FUNC_ID_ZW_MEMORY_GET_ID: 0x01, 0x03, 0x00, 0x20, 0xdc
+2018-03-09 18:54:29.821 Error, contrlr, ERROR: Dropping command, expected response not received after 1 attempt(s)
+2018-03-09 18:54:29.822 Detail, contrlr, Removing current message
+2018-03-09 18:54:29.822 Detail, contrlr, Notification: Notification - TimeOut
+2018-03-09 18:54:29.824 Detail, 
+2018-03-09 18:54:29.827 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x05) - FUNC_ID_ZW_GET_CONTROLLER_CAPABILITIES: 0x01, 0x03, 0x00, 0x05, 0xf9
+2018-03-09 18:54:30.828 Error, contrlr, ERROR: Dropping command, expected response not received after 1 attempt(s)
+2018-03-09 18:54:30.828 Detail, contrlr, Removing current message
+2018-03-09 18:54:30.828 Detail, contrlr, Notification: Notification - TimeOut
+2018-03-09 18:54:30.831 Detail, 
+2018-03-09 18:54:30.831 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x07) - FUNC_ID_SERIAL_API_GET_CAPABILITIES: 0x01, 0x03, 0x00, 0x07, 0xfb
+2018-03-09 18:54:31.831 Error, contrlr, ERROR: Dropping command, expected response not received after 1 attempt(s)
+2018-03-09 18:54:31.831 Detail, contrlr, Removing current message
+2018-03-09 18:54:31.832 Detail, contrlr, Notification: Notification - TimeOut
+2018-03-09 18:54:31.834 Detail, 
+2018-03-09 18:54:31.834 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x56) - FUNC_ID_ZW_GET_SUC_NODE_ID: 0x01, 0x03, 0x00, 0x56, 0xaa
+2018-03-09 18:54:32.835 Error, contrlr, ERROR: Dropping command, expected response not received after 1 attempt(s)
+2018-03-09 18:54:32.835 Detail, contrlr, Removing current message
+2018-03-09 18:54:32.835 Detail, contrlr, Notification: Notification - TimeOut

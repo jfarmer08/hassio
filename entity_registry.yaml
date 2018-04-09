@@ -1,0 +1,12 @@
+media_player.google_home:
+  platform: cast
+  unique_id: 0221a8d5-a1c8-9937-1155-119f7c91b7a5
+media_player.home_group:
+  platform: cast
+  unique_id: 34bffcef-4ecd-49b0-a886-03acd1a4f675
+climate.dining_room:
+  platform: nest
+  unique_id: KuYuUJ9yUE_OA_n_DgO3A0BoUlBKrpJ-
+media_player.living_room_tv:
+  platform: cast
+  unique_id: 4975ecfe-313a-376b-4e46-c37a62a5712e
