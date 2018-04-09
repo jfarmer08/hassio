@@ -154,10 +154,7 @@ binary_sensor:
     monitored_conditions:
       - Printing
       - Printing Error
-
-homekit:
-  pincode: '369-03-280'
-
+      
 mqtt:
   broker: 127.0.0.1
 
